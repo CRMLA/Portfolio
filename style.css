@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Resets */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+  
+}
+/* Nav */
+
+nav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 5px #aaaaaa;
+  width: 100%;
+  height: 90PX;
+}
+
+ul {
+  margin-right: 50px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  color: #4C4C4C;
+  text-decoration: none;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  color: #fff;
+  margin-left: 50px;
+  color: #6930C3;
+}
+.activ {
+  color:#6930C3;
+}
+button {
+  margin-left: 16px;
+  padding: 16px;
+  width: 164px;
+  border: 2px solid #6930C3;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #6930C3;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #6930C3;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Header Start */ 
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 90px);
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #6930C3;
+  border-radius:50% ;
+}
+
+.img h1 {
+  color: #343434;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.img h4 {
+  font-size: 30px;
+  color: #6930C3;
+  font-weight: normal;
+}
+
+.img p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.icons {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ /* width: 100px; */
+}
+
+.icons a {
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-square-x-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+#About {
+  width: 100%;
+  height: 100vh;
+  background: #343434;
+  color: #fff;
+  padding: 100px;
+}
+
+
+
+.section-header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.about-me-container p {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Skills */
+
+#Skills {
+  width: 100%;
+  height: 200vh;
+  padding: 50px;
+  position: relative;
+}
+
+.special-header {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4rem;
+  color: #343434;
+}
+
+.my-skills-icons img {
+  height: 100px;
+}
+
+.my-skills-icons {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skils-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.img-skills {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  text-align: center;
+}
+
+.skills h2 {
+  margin-top: 10px;
+  color: #4C4C4C;
+  
+}
+
+.Polygon-1 {
+  position: absolute;
+  width: 330px;
+  height: 611px;
+  background: url(imges/Polygon1.png);
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+  bottom: 150px;
+  left: 0;
+}
+
+.Polygon-2 {
+  position: absolute;
+  width: 229px;
+  height: 390px;
+  background: url(imges/Polygon2.png);
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+  top: 100px;
+  right: 0;
+}
+
+/* Writeups */
+
+#Writeups {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background: #343434;
+}
+.writeups-containers {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.writeups-header {
+  color: #fff;
+}
+.writeup1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 470px;
+  height: 624px;
+  background: url(imges/Rectangle1.png);
+
+}
+
+.writeup2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 470px;
+  height: 624px;
+  background: url(imges/Rectangle2.png);
+}
+
+.writeup-text {
+  display: flex;
+  color: #fff;
+  width: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.writeup-text h2 {
+  color: #6930C3;
+  margin-bottom: 50px;
+}
+
+.writeup-text p {
+  font-size: 1.5rem;
+}
+
+/* Projects */
+
+.projects {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.projects-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.projectbg {
+  width: 442px;
+  height: 274px;
+  margin: 10px;
+  border: 1px solid #343434;
+  border-radius: 9px;
+  transition: 1s;
+  box-shadow: 4px 4px 5px #aaaaaa;
+
+}
+.projectbg:hover {
+  transform: translateY(-10px) translateX(10px);
+}
+.project-1 {
+  background: url(https://cdn.discordapp.com/attachments/1006227679550394368/1187845787607117824/image.png?ex=65985e98&is=6585e998&hm=2731a13db73219641b5b9523350e1d94b20e8e54bd715a545ba6ab055bede7c2&);
+  background-position: center;
+  background-size: cover;
+}
+.project-2 {
+  background: url(https://cdn.discordapp.com/attachments/1006227679550394368/1187845936999825468/image.png?ex=65985ebc&is=6585e9bc&hm=389cbfdf38a7b63b60d5cdcb4b97f7fef08db32795f46ef0c5ae33a8f22eff46&);
+  background-position: center;
+  background-size: cover;
+}
+.project-3 {
+  background: url(https://cdn.discordapp.com/attachments/1006227679550394368/1187846176482005113/image.png?ex=65985ef5&is=6585e9f5&hm=bad43997af09bb6d795dcb120d432c1b7a14ddfe7b1de52fa7550b4fb50423a9&);
+  background-position: center;
+  background-size: cover;
+}
+
+.project-4 {
+  background: url(https://cdn.discordapp.com/attachments/1006227679550394368/1187850168796713051/image.png?ex=659862ad&is=6585edad&hm=b4b9e55de30b52d4b6452f785c0c731204115e26f9fa80b6a23ec7ab6a507166&);
+  background-position: center;
+  background-size: cover;
+  
+
+}
+
+.project-5 {
+  background: url(https://cdn.discordapp.com/attachments/1006227679550394368/1187853489582383114/image.png?ex=659865c5&is=6585f0c5&hm=5d6540803dc325ab7ef1360c8698002efb6e95cbed15e2a554a5bb73c6bc5f4d&);
+  background-position: center;
+  background-size: cover;
+  background-position-x: 0;
+}
+
+.project-6 {
+  background: url(https://cdn.discordapp.com/attachments/1006227679550394368/1187853549279916103/image.png?ex=659865d3&is=6585f0d3&hm=30c7d6f4dd59bf97ca97c559668d7e6dd6a172a26c6e48f6ee61fa631d61f010&);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#Say-hello {
+  height: calc(100vh + 50px);
+  padding: 50px;
+  background: #343434;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.say-hallo-container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.say-hallo-container input {
+  width: 450px;
+  height: 65px;
+  background: inherit;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.say-hallo-container form {
+  display: flex;
+  width: 450px;
+  height: 327px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.say-hallo-container textarea {
+  width: 50%;
+  height: 327px;
+  background: inherit;
+  border: 2px solid #fff;
+  resize: none;
+}
+
+.say-hello-btn {
+  width: 414px;
+  height: 68;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #6930C3;
+  margin-top: -50px;
+  height: 550px;
+}
+
+.Around-the-web {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.my-name {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.icons-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-footer a {
+  font-size: 32px;
+  margin-left: 25px;
+
+}
+
+.Copy-right {
+  display: flex;
+  font-size: 2rem;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  height: 156px;
+  width: 100%;
+  background: #7510F7;
+}
+@media only screen and (max-width:600px) {
+  nav ul {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .header .img img {
+    width: 250px;
+    height: 250px;
+  }
+  .header h1 {
+    text-align: center;
+  }
+
+  #About {
+    padding: 0;
+  }
+  .section-header {
+    padding: 10px;
+  }
+  .about-me-container {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .about-me-container p {
+    font-size: 16px;
+    font-weight: 500;
+    width: 500px;
+    
+  }
+}
